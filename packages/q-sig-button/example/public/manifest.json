@@ -1,0 +1,8 @@
+{
+  "short_name": "q-sig-button",
+  "name": "q-sig-button",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
