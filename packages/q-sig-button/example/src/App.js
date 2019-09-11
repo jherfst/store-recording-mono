@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'q-sig-button'
+import ButtonContainer from 'q-sig-button'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+       <ButtonContainer>
+            <span className="mr-2 text-white">
+                <i className="fas fa-cart-plus"/>
+                My cart
+            </span>
+        </ButtonContainer>
       </div>
     )
   }
