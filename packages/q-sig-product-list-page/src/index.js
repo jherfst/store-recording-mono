@@ -1,22 +1,29 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import Product from './components/Product';
+import Title from './components/Title';
+import {ProductConsumer} from 'q-sig-context';
 
-import styles from './styles.css'
+export default class ProductList extends Component {
+    render() {
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
+        return (
+            <React.Fragment>
+                <div className="py-5">
+                    <div className="container">
+                        <Title name="Qualogy" title="Stock Cars"></Title>
+                        <div className="row">
+                            <ProductConsumer>
+                                {(context) => {
+                                    return context.products.map(product => {
+                                       return <Product key={product.id} product={product} />;
+                                    });
+                                }}
+                            </ProductConsumer>
 
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
+                        </div>
+                    </div>
+                </div>
+            </React.Fragment>
+        )
+    }
 }

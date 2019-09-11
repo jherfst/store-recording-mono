@@ -8233,6 +8233,16 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+q-sig-button@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/q-sig-button/-/q-sig-button-1.0.3.tgz#4f7729e8095086a25b3861a7129a801350d6ced4"
+  integrity sha512-7HVcUSaeLpSfKHqD3onAuzUaLmH4OldyHZnJx/wHtch/JIA7Z8ag3TbMfprY0CLWZo9uUu9jMjo8r6Ych+SdEg==
+
+q-sig-context@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/q-sig-context/-/q-sig-context-1.0.0.tgz#4b1cff1ecbcedb51cdd0a0b2418dc05063f7b77d"
+  integrity sha512-NgVvTfT/CbXVvfpZItz2kVxtSESWl3nkbJAleSqAUMGsI0vqkAzPbfrYpVWExDc6rG63FGrBrCl2WfVCVfVS8Q==
+
 q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"

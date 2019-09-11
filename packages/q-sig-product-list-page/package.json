@@ -57,5 +57,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "q-sig-button": "^1.0.3",
+    "q-sig-context": "^1.0.0"
+  }
 }
