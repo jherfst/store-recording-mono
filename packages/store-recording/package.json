@@ -4,6 +4,11 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "q-sig-button": "1.0.3",
+    "q-sig-context": "^1.0.0",
+    "q-sig-default-page": "^1.0.0",
+    "q-sig-navbar": "^1.0.0",
+    "q-sig-product-list-page": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-paypal-express-checkout": "^1.0.5",

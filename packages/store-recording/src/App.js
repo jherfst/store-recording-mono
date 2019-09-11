@@ -1,17 +1,20 @@
 import React, {Component} from 'react';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
+import Navbar from 'q-sig-navbar';
 import Details from './components/Details';
-import ProductList from './components/ProductList';
+import ProductList from 'q-sig-product-list-page';
 import Cart from './components/Cart';
-import Default from './components/Default';
+import Default from 'q-sig-default-page';
 import Modal from './components/Modal';
+
 class App extends Component {
+
   render() {
       return (
-          <React.Fragment>
+          <Router>
+
              <Navbar/>
              <Switch>
                <Route exact path="/" component={ProductList} />
@@ -22,9 +25,11 @@ class App extends Component {
 
              <Modal/>
 
-          </React.Fragment>
+          </Router>
       );
   }
+
+
 }
 
 export default App;

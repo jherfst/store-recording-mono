@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import {ProductConsumer} from '../context';
+import {ProductConsumer} from 'q-sig-context';
 import {Link} from 'react-router-dom';
-import {ButtonContainer} from './Button';
+import ButtonContainer from 'q-sig-button';
 
 export default class Details extends Component {
     render() {

@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter as Router} from 'react-router-dom';
-import {ProductProvider} from './context';
-
+import {ProductProvider} from 'q-sig-context';
+import ErrorBoundary from './components/ErrorBoundary';
 ReactDOM.render(
     <ProductProvider>
-        <Router>
-            <App />
-        </Router>
+        <ErrorBoundary>
+             <App />
+        </ErrorBoundary>
     </ProductProvider>
 
 , document.getElementById('root'));
